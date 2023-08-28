@@ -1,6 +1,7 @@
 from Task2625SumMultiples import *
 from Task217ContainsDuplicate import*
 from Task125ValidPalindrome import*
+from Task242ValidAnagram import *
 
 # 2625 Sum Multiples
 # print ('Введите число')
@@ -18,5 +19,10 @@ from Task125ValidPalindrome import*
 # print(containsDuplicate(mylist))     # решение задачи
 
 # 125 ValidPalindrome
-text = ' А роза15 упала ;; на лапу 51азора'
-print(isPalindrome(text))
+# text = ' А роза15 упала ;; на лапу 51азора'
+# print(isPalindrome(text))
+
+# 242 ValidAnagram
+text = 'rat'
+text1='car'
+print(isAnagram(text,text1))
